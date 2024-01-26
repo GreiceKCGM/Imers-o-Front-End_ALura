@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar__navigation .logo {
-    background-color:var(--bg-navigation);
+    background:var(--bg-navigation);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
