@@ -43,7 +43,7 @@ body {
 
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--color-sidebar);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -56,7 +56,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--color-sidebar);
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -70,7 +70,7 @@ body {
 .library .library__button{
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--color-sidebar);
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -84,7 +84,7 @@ body {
 .library .library__button .fa{
     font-size: 20px;
     font-weight: 300;
-    color: #b3b3b3;
+    color: var(--color-sidebar);
     margin-right: 10px;
     padding-right: 8px;
 }
@@ -99,7 +99,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     background-color: #242424;
-    color: #b3b3b3;
+    color: var(--color-sidebar);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -148,7 +148,7 @@ body {
 }
 
 .sidebar .cookies a{
-    color:#b3b3b3;
+    color:var(--color-sidebar);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
