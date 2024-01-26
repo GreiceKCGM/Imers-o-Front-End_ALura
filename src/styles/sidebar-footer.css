@@ -39,6 +39,7 @@ body {
 
 .sidebar  ul li {
     padding: 10px 0;
+    cursor: pointer;
 }
 
 
@@ -47,6 +48,11 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+}
+
+.sidebar ul li a:hover{
+    transform: scale(1.04);
+    color: var(--text-base-light);
 }
 
 .library{
@@ -79,6 +85,12 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    cursor: pointer;
+}
+
+.library .library__button:hover{
+    transform: scale(1.04);
+    color: var(--text-base-light);
 }
 
 .library .library__button .fa{
@@ -89,8 +101,15 @@ body {
     padding-right: 8px;
 }
 
+
 .library .library__content .fa-plus {
     margin: 24px 10px;
+    cursor: pointer;
+}
+
+.library .library__content .fa-plus:hover{
+    transform: scale(1.04);
+    color: var(--text-base-light); 
 }
 
 .section-playlist{
@@ -141,6 +160,11 @@ body {
     margin-top: 12px;
     border: 0;
     width: 113px;
+    cursor: pointer;
+}
+
+.section-playlist__content .section-playlist__button:hover{
+    transform: scale(1.04);
 }
 
 .sidebar .cookies {
@@ -170,6 +194,10 @@ body {
     padding: 8px;
     border-radius: 20px; 
     cursor: pointer;
+}
+
+.languages .languages__button:hover{
+    transform: scale(1.04);
 }
 
 .disclaimer-premium {
@@ -212,6 +240,11 @@ body {
     cursor: pointer;
     flex-shrink: 0;
   }
+
+  .disclaimer-premium button:hover{
+    transform: scale(1.04);
+  }
+
 
 
 
